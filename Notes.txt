@@ -1,0 +1,32 @@
+public class Example1 {
+    public static void main(String[] args) {
+        // This is a single-line comment.
+
+        /*
+         * This is a multi-line comment.
+         * It can span multiple lines.
+         */
+
+        /*
+         * This is an example of a multi-line comment
+         * that contains a nested single-line comment.
+         * // This is a nested single-line comment.
+         * It's perfectly valid.
+         */
+
+        /*
+         * This is an example of a multi-line comment
+         * that contains a nested multi-line comment.
+         * /* This is a nested multi-line comment. */ //This is not valid
+         * This will cause a compilation error.
+         */
+        
+        // You can also have single line comments with nested single line comments
+        // // This is a nested single line comment.
+        
+        // You can also have single line comments with nested multi line comments
+        /* This is a nested multi-line comment. */ // This is valid
+
+        System.out.println("Hello from Java!");
+    }
+}
