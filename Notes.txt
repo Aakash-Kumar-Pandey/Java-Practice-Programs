@@ -1,3 +1,6 @@
+Commenting Basics: The code demonstrates different types of comments in Java, including single-line (//) and multi-line (/* ... */) comments.
+
+
 public class Example1 {
     public static void main(String[] args) {
         // This is a single-line comment.
